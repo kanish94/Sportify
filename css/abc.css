@@ -1,0 +1,69 @@
+.calculate{
+    position: relative;
+}
+
+.form{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.form > h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.subform{
+    display: inline-block;
+    line-height: 5em;
+}
+
+input[type="text"]{
+    width: 310px;
+    height: 3em;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #fff;
+    margin: 0 1em;
+}
+
+input[placeholder]{
+    font-weight: 400;
+    font-size: 1em;
+    color: #fff;
+}
+
+input[type="radio"]{
+    margin: 0 1em;
+    padding-top: 7em;
+}
+
+::placeholder{
+ color: #fff;
+}
+
+input[type="radio"]:hover, label:hover{
+   cursor: pointer;
+}
+
+input[type="text"]{ 
+ outline: none;
+}
+
+input:focus::placeholder {
+ color: transparent;
+}
+
+.bt3{
+ margin-left: 1em;
+ height: 3.4em;
+ width: 9em;
+ line-height: 3em;
+}
