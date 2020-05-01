@@ -1,2 +1,2 @@
 # Sportify
-A fully responsive fitness Landing Page
+A fully responsive fitness Website Landing Page
